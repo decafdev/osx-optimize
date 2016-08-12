@@ -5,7 +5,7 @@
 curl -L https://raw.githubusercontent.com/TechDecaf/osx-optimize/master/disableanimations.sh | sh
 ```
 
-What it does
+###What it does
 #####OS X user interface
 * Disable animations when opening and closing windows.
 * Disable animations when opening a Quick Look window.
@@ -14,10 +14,13 @@ What it does
 * Disable animations when you open an application from the Dock. SET
 * Make all animations faster that are used by Mission Control. SET
 * Disable the delay when you hide the Dock
+
 #####Mail application
 * Disable the animation when you sending and replying an e-mail
+
 #####Safari
 * Disable the standard delay in rendering a Web page. SET
+
 #####Keyboard
 * The keyboard react faster to keystrokes (not equally useful for everyone)
 
