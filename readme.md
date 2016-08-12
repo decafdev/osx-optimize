@@ -16,12 +16,12 @@ What it does
 * Disable the delay when you hide the Dock
 #####Mail application
 * Disable the animation when you sending and replying an e-mail
-##### Safari
+#####Safari
 * Disable the standard delay in rendering a Web page. SET
-##### Keyboard
+#####Keyboard
 * The keyboard react faster to keystrokes (not equally useful for everyone)
 
-##### Undo
+#####Undo
 If you want to undo any of the commands than is possible using the defaults delete command.
 * defaults delete domain key
 * Example: To undo the adjustment number 10, type the command:
