@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-chown -R $(whoami) /usr/local/lib/node_modules
-chown -R $(whoami) ~/.npm
+chown -R $(logname) /usr/local/lib/node_modules
+chown -R $(logname) ~/.npm
