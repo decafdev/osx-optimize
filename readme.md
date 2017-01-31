@@ -4,6 +4,10 @@
 ```bash
 curl -L https://raw.githubusercontent.com/TechDecaf/osx-optimize/master/disableanimations.sh | sh
 ```
+#####Configuring `npm` to Run w/o `sudo`
+```bash
+curl -L https://raw.githubusercontent.com/TechDecaf/osx-optimize/master/npm_wo_sudo.sh | sudo sh
+```
 
 ###What it does
 #####OS X user interface
