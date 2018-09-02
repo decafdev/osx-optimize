@@ -1,6 +1,9 @@
 # google chrome
 brew cask install google-chrome
 
+# iterm
+brew cask install iterm2
+
 # sublime text
 brew cask install sublime-text
 ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
