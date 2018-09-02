@@ -1,4 +1,21 @@
-# OS X user interface
+# The keyboard react faster to keystrokes (not equally useful for everyone)
+defaults write NSGlobalDomain KeyRepeat -int 0
+
+# Show hidden files and folders
+defaults write com.apple.finder AppleShowAllFiles YES
+
+# Disable trackpad force click
+defaults write com.apple.trackpad.forceClick -int 0
+
+# Remove all applications from the dock
+defaults write com.apple.dock static-only -bool TRUE;
+
+# Disable Natural Scrolling
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+
+# Disable dock autohide
+defaults write com.apple.dock autohide-time-modifier -int 0
+
 # Disable animations when opening and closing windows.
 defaults write NSGlobalDomain NSAutomaticWindowAnimationsEnabled -bool false
 
@@ -28,9 +45,6 @@ defaults write com.apple.mail DisableSendAnimations -bool true
 # Safari
 # Disable the standard delay in rendering a Web page. SET
 defaults write com.apple.Safari WebKitInitialTimedLayoutDelay 0.25
-
-# The keyboard react faster to keystrokes (not equally useful for everyone)
-defaults write NSGlobalDomain KeyRepeat -int 0
 
 # If you want any of the above commands undo than is possible using the defaults delete command.
 # defaults delete domain key
