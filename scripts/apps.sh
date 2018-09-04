@@ -14,3 +14,6 @@ ln -s "/Applications/Visual Studio Code.app/Contents/Resources/app/bin/code" /us
 
 # slack
 brew cask install slack
+
+# caffeine
+brew cask install caffeine
