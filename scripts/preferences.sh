@@ -1,6 +1,6 @@
 # The keyboard react faster to keystrokes (not equally useful for everyone)
-defaults write -g InitialKeyRepeat -int 5 # normal minimum is 15 (225 ms)
-defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
+defaults write -g InitialKeyRepeat -int 15 # normal minimum is 15 (225 ms)
+defaults write -g KeyRepeat -int 2 # normal minimum is 2 (30 ms)
 
 # Show hidden files and folders
 defaults write com.apple.finder AppleShowAllFiles YES
