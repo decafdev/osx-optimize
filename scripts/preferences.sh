@@ -10,6 +10,7 @@ defaults write com.apple.trackpad.forceClick -int 0
 
 # Remove all applications from the dock
 defaults write com.apple.dock static-only -bool TRUE;
+defaults delete com.apple.dock static-only;
 
 # Disable Natural Scrolling
 defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
